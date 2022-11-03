@@ -1,0 +1,100 @@
+div {
+   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+   /* Тень */
+   padding: 10px;
+   /* Поля вокруг текста */
+   border-radius: 10px;
+   /* Радиус скругления */
+   background: #000000;
+   /* Цвет фона */
+}
+
+
+h1 {
+   background: #7a7a7a00;
+   /* Цвет фона под заголовком */
+   color: rgb(255, 255, 255);
+   /* Цвет текста */
+   padding: 5px;
+   /* Поля вокруг текста */
+}
+
+div.iframe {
+   width: 600px;
+   height: 800px;
+
+}
+
+.camera {
+  display: block;
+  margin: 0 auto;
+
+ }
+@media screen and (max-width: 1280px) {
+   div.example {width: 1100px;}
+   }
+   @media screen and (max-width: 1024px) {
+   div.example {width: 980px;}
+   }
+
+   #pagewrap {
+       width: 980px;
+       margin: 0 auto;
+    }
+    #header {
+       height: 160px;
+    }
+    #content {
+       width: 600px;
+       float: left;
+    }
+    #sidebar {
+       width: 280px;
+       float: right;
+    }
+    #footer {
+       clear: both;
+    }
+
+    @media screen and (max-width: 980px) {
+       #pagewrap {
+          width: 95%;
+       }
+
+       #content {
+          width: 60%;
+          padding: 3% 4%;
+       }
+       #sidebar {
+          width: 30%;
+       }
+       #sidebar .widget {
+          padding: 8% 7%;
+          margin-bottom: 10px;
+       }
+       .camera {
+        display: block;
+        margin: 0 auto;
+
+       }
+    }
+    .video embed,
+.video object,
+.video iframe {
+  width: 100%;
+  height: auto;
+}
+
+img {
+
+   max-width: 100%;
+
+   height: auto;
+
+}
+@media only screen and (max-width: 1000px) {
+
+   nav {  width: 100%; }
+
+}
+
